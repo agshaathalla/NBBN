@@ -1,4 +1,4 @@
-import Gambar from "./../Assets/1.jpeg";
+import Gambar from "./../Assets/3.png";
 import Slide from "@mui/material/Slide";
 import React from "react";
 
@@ -23,17 +23,11 @@ const Content2 = () => {
                     <img className="w-[500px] mx-auto my-4 " src={Gambar} alt="/" />
                     <div className="flex flex-col justify-center">
                         <h1 className="md:text-5xl sm:text-3xl text-2xl font-bold py-2">
-                            Judul
+                            Yakin Udara Kita Sudah Bersih?
                         </h1>
                         <p className="text-justify">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Voluptatum aliquam expedita amet, quidem beatae maiores
-                            aspernatur culpa excepturi blanditiis in accusantium
-                            esse, quos praesentium eaque magni reiciendis odio cum?
-                            Voluptatem doloribus impedit dignissimos error,
-                            consequuntur excepturi eveniet iusto adipisci id. Minus
-                            unde fuga officia vel nihil soluta facere cupiditate
-                            quae?
+                            Udara yang selama ini kita hirup belum tentu udara yang bersih. Tanpa kita sadari, udara yang selama ini kita hirup bisa saja sudah tercemar. Pencemaran udara merupakan hadirnya suatu substansi fisik, kimia, maupun biologi di atmosfer dalam jumlah yang mengganggu kenyamanan hingga membahayakan kesehatan makhluk hidup. Terdapat banyak faktor penyumbang pencemaran udara di Indonesia, antara lain kendaraan, industri, pembangkit listrik dan lain-lain.
+
                         </p>
                     </div>
                 </div>
