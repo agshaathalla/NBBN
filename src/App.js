@@ -5,6 +5,7 @@ import Content3 from "./Component/Content3";
 import Carousel from "./Component/Carousel";
 import React from "react";
 import {useState } from "react";
+import YoutubeEmbed from "./Component/YoutubeEmbed";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
             <Carousel/>
             <Content2 />
             <Content3 />
+            <YoutubeEmbed />
         </div>
     );
 }
