@@ -1,4 +1,4 @@
-import Gambar2 from "../Assets/2.jpg";
+import Gambar2 from "../Assets/chart.png";
 import { ShakeSlow } from "reshake";
 import Collapse from '@mui/material/Collapse';
 import React from "react";
@@ -29,15 +29,15 @@ const Content3 = () => {
                     />
                 </ShakeSlow>
             </div>
-            <div className="absolute ml-[-700px] font-bold text-6xl font-serif">
+            <div className="absolute ml-[-600px] font-bold text-6xl font-serif">
                 <Collapse in={checked}>
-                    <p>JUDULL</p>
+                    <p>Kematian</p>
                 </Collapse>
                 <Collapse in={checked}>
-                    <p>JUDULLLLLL</p>
+                    <p>Akibat Udara Buruk</p>
                 </Collapse>
                 <Collapse in={checked}>
-                    <p className="text-base font-semibold">penjelasan dikit</p>
+                    <p className="text-base font-semibold">Lorem ipsum dolor sit amet.</p>
                 </Collapse>
             </div>
         </div>

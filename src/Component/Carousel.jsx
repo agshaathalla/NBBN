@@ -5,20 +5,20 @@ import { RxDotFilled } from "react-icons/rx";
 const Carousel = () => {
     const slides = [
         {
-            url: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80",
+            url: "https://www.greenpeace.org/static/planet4-indonesia-stateless/2022/07/38db2437-image-2_polusi-jakarta.jpg",
         },
         {
-            url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80",
+            url: "https://cdn-2.tstatic.net/manado/foto/bank/images/ilustrasi-daftar-20-negara-dengan-tingkat-polusi-udara-tertinggi-di-dunia-2523.jpg",
         },
         {
-            url: "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80",
+            url: "https://akcdn.detik.net.id/visual/2019/09/16/460ece4d-4a14-4ce4-b790-16c13904a953_169.jpeg?w=650",
         },
 
         {
-            url: "https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80",
+            url: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/jawapos/2022/06/IMG_20220617_074836_1.jpg",
         },
         {
-            url: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80",
+            url: "https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/06/21/2015652926.jpg",
         },
     ];
 
@@ -41,9 +41,9 @@ const Carousel = () => {
     };
 
     return (
-        <div className="max-w-[1400px] h-screen w-full m-auto py-16 px-4 relative group border-2 border-red-300">
+        <div className="max-w-[1400px] h-screen w-[1000px] m-auto py-16 px-4 relative group border-2 border-red-300">
             <div className="font-bold text-[#0A415E] text-2xl sm:text-3xl md:text-4xl">
-                <h1>BUAT TULISAN GAMBAR</h1>
+                <h1>Gambaran Polusi Udara di Indonesia</h1>
             </div>
             <div
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
