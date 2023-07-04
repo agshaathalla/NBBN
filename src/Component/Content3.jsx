@@ -19,17 +19,17 @@ const Content3 = () => {
     },[])
 
     return (
-        <div className="w-full h-screen border-2 border-red-300 flex justify-center items-center">
+        <div className="w-full h-screen flex justify-center items-center">
             <div className="relative">
                 <ShakeSlow>
                     <img
-                        className="w-[800px] mx-auto my-4 "
+                        className="w-[1000px] mx-auto my-4 "
                         src={Gambar2}
                         alt="/"
                     />
                 </ShakeSlow>
             </div>
-            <div className="absolute ml-[-600px] font-bold text-6xl font-serif">
+            <div className="absolute ml-[-600px] font-bold text-6xl font-serif text-[#0A415E]">
                 <Collapse in={checked}>
                     <p>Kematian</p>
                 </Collapse>

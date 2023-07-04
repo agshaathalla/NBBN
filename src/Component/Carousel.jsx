@@ -41,7 +41,7 @@ const Carousel = () => {
     };
 
     return (
-        <div className="max-w-[1400px] h-screen w-[1000px] m-auto py-16 px-4 relative group border-2 border-red-300">
+        <div className="max-w-[1400px] h-screen w-[1000px] m-auto py-16 px-4 relative group">
             <div className="font-bold text-[#0A415E] text-2xl sm:text-3xl md:text-4xl">
                 <h1>Gambaran Polusi Udara di Indonesia</h1>
             </div>
