@@ -1,10 +1,10 @@
-import QR from "../Assets/qr.png";
+import QR from "../Assets/qr.jpg";
 import Poster from "../Assets/poster.png";
 
 const Content4 = () => {
     return (
         <div classname="w-full h-screen">
-            <div className="md:text-5xl sm:text-3xl text-2xl font-bold py-2 text-[#DEF0F1] ml-[150px] mt-[50px]">
+            <div className="md:text-5xl sm:text-3xl text-2xl font-bold py-2 text-[#0A415E] ml-[150px] mt-[50px]">
                 <h1>FOR MORE EXPERIENCE</h1>
             </div>
             <div className="flex">
