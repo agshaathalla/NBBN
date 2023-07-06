@@ -37,7 +37,7 @@ const Content3 = () => {
                     <p>Akibat Udara Buruk</p>
                 </Collapse>
                 <Collapse in={checked}>
-                    <p className="text-base font-semibold">Lorem ipsum dolor sit amet.</p>
+                    <p className="text-2xl font-medium">Kualitas udara yang buruk dapat menyebabkan berbagai <br/> macam penyakit pernafasan sehingga mengancam manusia</p>
                 </Collapse>
             </div>
         </div>
